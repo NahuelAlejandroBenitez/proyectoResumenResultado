@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;1,800&display=swap');
+
+*{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.contenedor{
+    width: 650px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.tarjeta1{
+    width: 50%;
+    height: 480px;
+    border-radius: 30px;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    padding-top: 20px;
+}
+
+.great{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.9rem;
+}
+
+.tarjeta1 p {
+    padding: 0 60px;
+}
+
+.circulo--76{
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo--76 h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 3.8rem;
+    margin: 0;
+
+}
+
+.circulo--76 > p {
+    color: hsl(241, 100%, 89%);
+    margin: 0;
+    padding: 0;
+
+}
+
+.tarjeta2{
+    width: 50%;
+    height: 480px;
+    background-color: hsl(0, 0%, 100%);;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.summary--div{
+    width: 75%;
+    height: 65px;
+    background-color: brown;
+    margin: 0px auto;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.summary--div p{
+    padding-right: 10px;
+    font-size: 1.2rem;
+    margin: auto 0;
+}
+
+.tarj--p{
+    font-size: 1.5rem;
+    margin-left: 40px;
+    font-weight: 800;
+}
+
+span{
+    font-weight: 900;
+}
+
+.uno{
+    background-color: hsla(0, 100%, 67%,0.1);
+}
+
+.Reaction{
+    color: hsl(0, 100%, 67%);
+}
+
+.dos{
+    background-color: hsla(39, 100%, 56%,0.1);
+}
+
+.Memory{
+    color: hsl(39, 100%, 56%);
+}
+
+.tres{
+    background-color: hsla(166, 100%, 37%,0.1);
+}
+
+.Verbal{
+    color: hsl(166, 100%, 37%) ;
+}
+
+.cuatro{
+    background-color: hsla(234, 85%, 45%,0.1);
+}
+
+.Visual{
+    color:hsl(234, 85%, 45%);
+}
+
+svg{
+    margin: auto 5px;
+    padding: 0;
+}
+
+.icon{
+    margin: auto 0;
+    display: flex;
+
+}
+
+.boton{
+    width: 75%;
+    height: 50px;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 50px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.boton:hover{
+    background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+@media screen and (max-width: 525px) {
+    .contenedor{
+        flex-direction: column;
+        box-shadow: none;
+        height: 100vh;
+    }
+    .tarjeta1{
+        width: 100%;
+        border-radius: 0 0px 60px 60px;
+    }
+
+    .your{
+        font-size: 1.8rem;
+    }
+
+    .circulo--76 > h2{
+        font-size: 5rem;
+    }
+
+    .circulo--76 > p{
+        font-size: 1.4rem;
+        color: hsl(241, 100%, 89%);
+    }
+
+    .great{
+        font-size: 2.1rem;
+    }
+
+    .you{
+        font-size: 1.4rem;
+    }
+
+    .tarjeta2{
+        width: 100%;
+        height: 60%;
+    }
+
+    .tarj--p{
+        padding-left: 30px;
+        font-size: 1.8rem;
+    }
+
+    .summary--div{
+        height: 80px;
+    }
+
+    .summary--div p{
+        font-size: 1.4rem;
+    }
+
+    .boton{
+        height: 80px;
+        font-size: 1.6rem;
+    }
+}
